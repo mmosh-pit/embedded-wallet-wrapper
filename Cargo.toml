@@ -1,0 +1,17 @@
+[package]
+name = "kinship"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.10.2"
+anyhow = "1.0.97"
+frost-core = {version = "2.1.0" , features = ["default"]}
+frost-ed25519 = {version = "2.1.0" , features = ["default"]}
+rand = "0.8.5"
+r2d2 = "0.8.10"
+rocksdb = "0.23.0"
+serde = "1.0.219"
+serde_json = "1.0.140"
+hex = "0.4.3"
+bs58 = "0.5.1"
