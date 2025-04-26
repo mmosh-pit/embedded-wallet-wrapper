@@ -1,0 +1,4 @@
+wallet_db/
+deploy.sh
+.gcloudignore
+target/
